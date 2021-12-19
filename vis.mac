@@ -1,0 +1,13 @@
+/vis/open OGL
+/vis/drawVolume
+/vis/scene/add/axes
+/vis/viewer/set/upVector 0 0 1
+/vis/viewer/set/viewpointVector 1 1 1
+
+/vis/geometry/set/visibility logicWorld 0 false
+/vis/geometry/set/colour logicFoil 0 0.93 0.87 0.51 
+/vis/viewer/set/style surface
+/vis/geometry/set/forceWireframe logicDetector
+
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
